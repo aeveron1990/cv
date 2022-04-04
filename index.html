@@ -5,52 +5,73 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vasiliy Merzlyakov</title>
-    <meta name = "discription" content="This is cv of Vasiliy Merzlyakov" >
-    <meta name = "keywords" content="Vasiliy Merzlyakov, cv" > 
+    <meta name = "discription" content="This is cv of Vasiliy Merzlyakov">
+    <meta name = "keywords" content="Vasiliy Merzlyakov, cv">
+    <link rel="icon" href="./assets/img/favicon.ico">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <img src="/img/IMG_20220117_172445.jpg" alt="my foto" width="230 px" height="300 px">
-    <h1>Василий Мерзляков</h1>
-    <p>Я изучаю <strong>HTML</strong> и <strong>CSS</strong>.</p>
-    <p>Я люблю <em>историю</em> , <em>музыку</em> и <em>читать книги</em>.</p>
-    <a target="blanc" href="https://github.com/aeveron1990">Github</a>|<a class="contact-link" href="mailto:aeveron1990@mail.ru">Mail</a>|<a class="contact-link" target="blanc" href="https://discordapp.com/users/920660991820312648/">Discord</a>
-    <h2>Мои хобби:</h2>
-    <ul>
-        <li>История</li>
-        <li>Чтение книг</li>
-        <li>Музыка</li>
-        <li>Путешесвия</li>    
-    </ul>
-    <h2>Опыт работы:</h2>
-    <table>
-        <tbody>
-          <tr>
-            <th>Фирма:</th>
-            <th>Должность:</th>
-            <th>Год:</th>
-          </tr>
-          <tr>
-            <td>ООО МНУ</td>
-            <td>Слесарь КИПиА</td>
-            <td>2019-по настоящее время</td>
-          </tr>
-          <tr>
-            <td>ООО Ресурс комплект</td>
-            <td>Слесарь КИПиА</td>
-            <td>2016-2019</td>
-          </tr>
-          <tr>
-            <td>ООО Витра</td>
-            <td>Системный администратор</td>
-            <td>2010-2015</td>
-          </tr>
-        </tbody>
-    </table>
-    <h2>Связаться со мной:</h2>
-    <p>Ваше имя: <input type="text" placeholder="Введите имя"></p>
-    <p>Ваш email: <input type="text" placeholder="Введите email"></p>
-    <p>Ваше сообщение:</p>
-    <textarea name="message" cols="30" rows="4" placeholder="Введите сообщение"></textarea><br>
-    <button>Отправить</button>
+    <img class="img" src="/img/IMG_20220117_172445.jpg" alt="my foto" width="230 px" height="300 px">
+    <header>
+      <div class="head">
+          <h1>Василий Мерзляков</h1>
+      </div>
+    </header>
+    <section>
+      <div class="section">
+        <p>Я изучаю HTML и CSS.</p>
+        <p>Я люблю историю, музыку и читать книги.</p>
+      </div>
+    </section>
+      <div class="contact">
+          <a target="blanc" href="https://github.com/aeveron1990">Github</a>|<a class="contact-link" href="mailto:aeveron1990@mail.ru">Mail</a>|<a class="contact-link" target="blanc" href="https://discordapp.com/users/920660991820312648/">Discord</a>
+      </div>
+    <div class="hobby"> 
+      <h2>Мои хобби:</h2>
+        <ul class="list">
+          <li>История</li>
+          <li>Чтение книг</li>
+          <li>Музыка</li>
+          <li>Путешесвия</li>    
+        </ul>
+    </div>
+    <div class="exp">
+      <h2>Опыт работы:</h2>
+        <table class="table">
+          <tbody>
+            <tr>
+              <th>Фирма:</th>
+              <th>Должность:</th>
+              <th>Год:</th>
+            </tr>
+            <tr>
+              <td>ООО МНУ</td>
+              <td>Слесарь КИПиА</td>
+              <td>2019-по настоящее время</td>
+            </tr>
+            <tr>
+              <td>ООО Ресурс комплект</td>
+              <td>Слесарь КИПиА</td>
+              <td>2016-2019</td>
+            </tr>
+            <tr>
+              <td>ООО Витра</td>
+              <td>Системный администратор</td>
+              <td>2010-2015</td>
+            </tr>
+          </tbody>
+      </table>
+    </div>
+    <div class="form">
+      <h2>Связаться со мной:</h2>
+        <p>Ваше имя: <input type="text" placeholder="Введите имя"></p>
+        <p>Ваш email: <input type="text" placeholder="Введите email"></p>
+        <p>Ваше сообщение:</p>
+        <textarea name="message" cols="30" rows="4" placeholder="Введите сообщение"></textarea><br>
+        <button>Отправить</button>
+    </div>
 </body>
 </html>
